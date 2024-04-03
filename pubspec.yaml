@@ -1,0 +1,36 @@
+name: firebase_food_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_screenutil: ^5.5.4
+  firebase_core: ^2.27.0
+  firebase_storage: ^11.6.9
+  cloud_firestore: ^4.15.8
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  cached_network_image: ^3.2.1
+  image_picker: ^1.0.7
+  flutter_native_splash: ^2.3.10
+  palette_generator: ^0.3.3+2
+  flutter_local_notifications: ^11.0.0
+  flutter_timezone: ^1.0.8
+  get_storage: ^2.1.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^3.0.2
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - images/
+
